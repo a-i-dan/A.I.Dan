@@ -17,10 +17,7 @@ layout: default
             <li><a href="contact.html">Contact</a></li>
         </ul>
 
-
-    <section>
-
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
       <div class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl }}">
               <h2 class="post-title">
@@ -36,8 +33,6 @@ layout: default
       </div>
       <hr>
       {% endfor %}
-
-    </section>
 
   </body>
 
