@@ -1,13 +1,13 @@
 .post-preview > a {
-  color: #404040;
+  color: black;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #00d5ff;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -18,7 +18,7 @@
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 12px;
   font-style: italic;
   margin-top: 0;
 }
@@ -28,10 +28,10 @@
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #00d5ff;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 25px;
   }
