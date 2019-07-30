@@ -1,5 +1,7 @@
 .previewdiv {
   width: 80%;
+  display: block;
+  margin: auto;
 }
 
 .post-preview > a {
