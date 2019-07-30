@@ -1,3 +1,7 @@
+.previewdiv {
+  width: 80%;
+}
+
 .post-preview > a {
   color: black;
 }
