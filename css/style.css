@@ -11,6 +11,7 @@ html {
 
 body {
   padding: 20px;
+  width: 80%;
   font-family: sans-serif;
   @media (min-width: 992px) {
     padding: 35px 50px;
