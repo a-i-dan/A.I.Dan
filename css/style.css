@@ -1,6 +1,9 @@
 body {
   padding: 20px;
   font-family: sans-serif;
+  @media (min-width: 992px) {
+    padding: 35px 50px;
+  }
 }
 
 .logo {
@@ -27,4 +30,13 @@ body {
 .NavBar li a {
   color: black;
   text-decoration: none;
+}
+
+.footer {
+  margin-top: 50px;
+  color: #777;
+  a {
+    border: none;
+    font-weight: bold;
+  }
 }
