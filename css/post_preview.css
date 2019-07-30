@@ -2,6 +2,7 @@
   width: 80%;
   display: block;
   margin: auto;
+  text-align: center;
 }
 
 .post-preview > a {
