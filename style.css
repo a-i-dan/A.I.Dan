@@ -1,0 +1,30 @@
+body {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50px;
+  margin: auto;
+  display: block;
+}
+
+.NavBar {
+  display: table;
+  margin: auto;
+  padding: 15px;
+}
+
+.NavBar * {
+  display: inline;
+}
+
+.NavBar li {
+  margin: 40px;
+}
+
+.NavBar li a {
+  color: black;
+  text-decoration: none;
+}
