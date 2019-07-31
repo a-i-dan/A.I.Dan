@@ -3,9 +3,13 @@ layout: default
 ---
 <head>
 <link rel="stylesheet" href="css/prism.css">
+<link rel="stylesheet" text="text/css" href="css/style.css">
+<link rel="stylesheet" text="text/css" href="css/post_preview.css">
 </head>
 
 <article>
+	{% include header.html %}
+	
 	<div class="center">
 		<time class="code">{{ page.date | date: '%B %-d, %Y' }}</time>
 	</div>
