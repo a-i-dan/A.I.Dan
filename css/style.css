@@ -54,3 +54,9 @@ body {
     font-weight: bold;
   }
 }
+
+.follow-button {
+  display: block;
+  margin: auto;
+  padding-left: 10px;
+}
